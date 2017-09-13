@@ -6,7 +6,8 @@
  * Date: 13.09.2017
  * Time: 15:18
  */
-class testClass
-{
+class testUser{
+ public $name= "";
+ public $city= "";
 
 }
