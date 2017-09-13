@@ -9,5 +9,15 @@
 class testUser{
  public $name= "";
  public $city= "";
+ private $loggedIn = true;
 
+    public function login(){
+     $this->loggedIn=true;
+    }
+    public function logout(){
+        $this->loggedIn=false;
+    }
+    public function islog(){
+        return $this->loggedIn;
+    }
 }
